@@ -1,8 +1,10 @@
 # full-stack-project
 
-MGS 406 Flask Project Demo
+MGS 406 Full Stack Project
 
-Development Server
+# This is a full stack project has a home page, a page to order food, and a page for the chef/kitchen to see the orders. The transactional data is held in a MySQL database.
+
+# Development Server
 
 If you have a Python virtual environment, activate it with the following command:
 
