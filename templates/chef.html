@@ -1,0 +1,29 @@
+{% extends "bootstrap/base.html" %}
+{% block title %}Orders for the Chef{% endblock %}
+{% block navbar %}
+<div class="navbar navbar-fixed-top">
+<!-- ... -->
+</div>
+{% endblock %}
+{% block content %}
+<table class="table" border = 1>
+    <thead class="bg-primary">
+        <td>Pork</td>
+        <td>Beef</td>
+        <td>Shrimp</td>
+        <td>Mushroom</td>
+        <td>ScallionP</td>
+    </thead>
+
+    {% for row in rows %}
+        <thead class="bg-info">
+            <td>{{row[1]}}</td>
+            <td>{{row[2]}}</td>
+            <td>{{row[3]}}</td>
+            <td>{{row[4]}}</td>
+            <td>{{row[5]}}</td>
+        </tr>
+    {% endfor %}
+</table>
+<a href="/">Go back to home page</a>
+{% endblock %}
